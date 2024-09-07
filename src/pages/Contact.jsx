@@ -60,6 +60,7 @@ const Contact = () => {
           name="description"
           content="Get in touch with us for inquiries, partnerships, or any questions you have."
         />
+        <link rel="canonical" href="https://bukhari-enterprises.vercel.app/contact-us" />
       </Helmet>
       <Hero
         thickTitle={"Get in Touch"}

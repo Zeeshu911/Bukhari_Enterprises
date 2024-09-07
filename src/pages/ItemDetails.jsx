@@ -51,6 +51,14 @@ const FruitItemDetails = () => {
             "Find out more about this fresh produce item."
           }
         />
+        <link
+          rel="canonical"
+          href={
+            item === "Potatoes" || item === "Onions"
+              ? `https://bukhari-enterprises.vercel.app/vegetables/${item}`
+              : `https://bukhari-enterprises.vercel.app/fruits/${item}`
+          }
+        />
       </Helmet>
       <Hero
         thinTitle={"Farm-Fresh"}

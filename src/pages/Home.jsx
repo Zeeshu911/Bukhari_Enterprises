@@ -20,7 +20,7 @@ const Home = () => {
           name="description"
           content="Delivering quality products worldwide with reliability, precision, and trust."
         />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://bukhari-enterprises.vercel.app/" />
       </Helmet>
       <section
         className={`relative flex flex-col justify-center  md:mt-28 px-5 h-[450px] text-white bg-cover bg-bottom md:bg-center md:px-16 md:h-[650px] lg:px-32 bg-fixed`}

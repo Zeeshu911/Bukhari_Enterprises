@@ -19,6 +19,7 @@ const Fruits = () => {
           name="description"
           content="From our orchards to your table, savor the juiciest and freshest fruits, handpicked with care."
         />
+        <link rel="canonical" href="https://bukhari-enterprises.vercel.app/fruits" />
       </Helmet>
       <Hero
         thinTitle={"Farm-Fresh"}

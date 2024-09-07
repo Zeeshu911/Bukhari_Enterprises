@@ -16,6 +16,7 @@ const Vegetables = () => {
       <Helmet>
         <title>Fresh Vegetables Exporters in Pakistan | Bukhari Enterprises</title>
         <meta name="description" content="Explore our fresh and high-quality vegetables including potatoes and onions, sourced from the best farms around the world." />
+        <link rel="canonical" href="https://bukhari-enterprises.vercel.app/vegetables" />
       </Helmet>
 
       <Hero

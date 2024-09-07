@@ -16,6 +16,7 @@ const About = () => {
           name="description"
           content="Learn more about Bukhari Enterprises and our global mission to provide the freshest produce worldwide."
         />
+        <link rel="canonical" href="https://bukhari-enterprises.vercel.app/about-us" />
       </Helmet>
       <Hero
         linkOneTitle={"About"}
