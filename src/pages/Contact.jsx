@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.EMAILJS_SERVICE_ID, // Replace with your EmailJS service ID
-        process.env.EMAILJS_TEMPLATE_ID, // Replace with your EmailJS template ID
+        "service_np5pdsx", // Replace with your EmailJS service ID
+        "template_ii97kza", // Replace with your EmailJS template ID
         formData,
-        process.env.EMAILJS_PUBLIC_KEY // Replace with your public key
+        "YcOimjllS64zn4ghK" // Replace with your public key
       )
       .then((response) => {
         setSuccessMessage(
@@ -60,7 +60,10 @@ const Contact = () => {
           name="description"
           content="Get in touch with us for inquiries, partnerships, or any questions you have."
         />
-        <link rel="canonical" href="https://bukhari-enterprises.vercel.app/contact-us" />
+        <link
+          rel="canonical"
+          href="https://bukhari-enterprises.vercel.app/contact-us"
+        />
       </Helmet>
       <Hero
         thickTitle={"Get in Touch"}
