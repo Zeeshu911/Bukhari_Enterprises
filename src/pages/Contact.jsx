@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_np5pdsx", // Replace with your EmailJS service ID
-        "template_ii97kza", // Replace with your EmailJS template ID
+        process.env.EMAILJS_SERVICE_ID, // Replace with your EmailJS service ID
+        process.env.EMAILJS_TEMPLATE_ID, // Replace with your EmailJS template ID
         formData,
-        "YcOimjllS64zn4ghK" // Replace with your public key
+        process.env.EMAILJS_PUBLIC_KEY // Replace with your public key
       )
       .then((response) => {
         setSuccessMessage(
